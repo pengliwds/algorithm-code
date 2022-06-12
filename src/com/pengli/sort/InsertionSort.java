@@ -1,5 +1,7 @@
 package com.pengli.sort;
 
+import com.sun.java.accessibility.util.EventID;
+
 import java.util.Arrays;
 
 /**
@@ -66,7 +68,7 @@ public class InsertionSort {
                     break;
                 }
             }
-            a[j+1] = compareValue;
+            a[j + 1] = compareValue;
         }
     }
 

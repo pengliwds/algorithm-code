@@ -27,7 +27,8 @@ public class QuickSort {
 
         int pivot = a[end];
         int i = start, j = start;
-
+        // i下标用来遍历数组， j用来标记比pivot大的第一个下标，
+        // 这样，遍历到最后只要pivot和a[j]互换，就可以实现左边的都比a[j]小，右边的都比a[j]大（升序排序情况下，降序排序正好相反）
         for (; i < start + length; i++) {
             // 升序排序
             if (a[i] < pivot) {

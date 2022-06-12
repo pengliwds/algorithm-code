@@ -19,12 +19,12 @@ public class BubbleSort {
         if (a == null) {
             return;
         }
-        int lenth = a.length;
-        for (int i = 0; i < lenth; i++) {
+        int length = a.length;
+        for (int i = 0; i < length; i++) {
             boolean noSwapFlag = true;
-            for (int j = 1; j < lenth - i; j++) {
-                if (a[j-1] > a[j]) {
-                    swap(a, j-1, j);
+            for (int j = 1; j < length - i; j++) {
+                if (a[j - 1] > a[j]) {
+                    swap(a, j - 1, j);
                     noSwapFlag = false;
                 }
             }
