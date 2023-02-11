@@ -1,6 +1,6 @@
 package com.pengli.designPattern.observerPattern;
 
-public class ObserverPatternDemo {
+public class ObserverPatternTest {
     public static void main(String[] args) {
         Subject subject = new Subject();
 
