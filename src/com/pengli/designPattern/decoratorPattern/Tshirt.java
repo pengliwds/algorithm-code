@@ -1,4 +1,4 @@
-package com.pengli.designPattern.decorator;
+package com.pengli.designPattern.decoratorPattern;
 
 /**
  * @Author pengli
