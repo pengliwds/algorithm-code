@@ -1,4 +1,4 @@
-package com.pengli;
+package com.pengli.test;
 
 import java.io.BufferedReader;
 import java.io.IOException;

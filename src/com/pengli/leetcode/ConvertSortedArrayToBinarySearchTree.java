@@ -1,6 +1,6 @@
-package com.pengli.LeetCode;
+package com.pengli.leetcode;
 
-import com.pengli.Node;
+import com.pengli.util.Node;
 
 /**
  * @Author pengli

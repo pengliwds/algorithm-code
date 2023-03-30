@@ -1,5 +1,9 @@
 package com.pengli.designPattern.behavioral.strategyPattern.common;
 
+/**
+ * 策略模式
+ *
+ */
 public class StrategyTest {
 
     public static void main(String[] args) {

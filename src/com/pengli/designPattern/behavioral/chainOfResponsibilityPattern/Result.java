@@ -1,4 +1,4 @@
-package com.pengli.designPattern.behavioral.ChainOfResponsibilityPattern;
+package com.pengli.designPattern.behavioral.chainOfResponsibilityPattern;
 
 public class Result {
 

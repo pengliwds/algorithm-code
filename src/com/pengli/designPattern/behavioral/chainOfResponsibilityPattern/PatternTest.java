@@ -1,5 +1,9 @@
-package com.pengli.designPattern.behavioral.ChainOfResponsibilityPattern;
+package com.pengli.designPattern.behavioral.chainOfResponsibilityPattern;
 
+/**
+ * 责任链模式
+ *
+ */
 public class PatternTest {
 
     public static void main(String[] args) {
