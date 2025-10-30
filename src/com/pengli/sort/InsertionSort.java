@@ -1,7 +1,5 @@
 package com.pengli.sort;
 
-import com.sun.java.accessibility.util.EventID;
-
 import java.util.Arrays;
 
 /**
@@ -74,7 +72,7 @@ public class InsertionSort {
 
 
     public static void main(String[] args) {
-        int[] a = {9, 3, 4, 6, 5, 1, 0};
+        int[] a = { 9, 3, 4, 6, 5, 1, 0 };
         prettySort(a);
         System.out.println(Arrays.toString(a));
 

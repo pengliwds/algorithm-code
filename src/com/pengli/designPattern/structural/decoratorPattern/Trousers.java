@@ -7,6 +7,10 @@ package com.pengli.designPattern.structural.decoratorPattern;
  */
 public class Trousers extends PersonDecorator {
 
+    public Trousers(Person person) {
+        super(person);
+    }
+
     @Override
     public void doSomething() {
         super.doSomething();

@@ -28,6 +28,12 @@ public class PrototypePatternTest {
         System.out.println(yinhua);
         System.out.println(meihua);
         System.out.println(haitanghua);
+
+        area.setCity("苏州");
+
+        System.out.println(yinhua);
+        System.out.println(meihua);
+        System.out.println(haitanghua);
     }
 
 

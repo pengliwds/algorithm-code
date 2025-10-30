@@ -9,7 +9,7 @@ public abstract class PersonDecorator implements Person {
 
     public Person person;
 
-    public void setDecorator(Person person) {
+    public PersonDecorator(Person person) {
         this.person = person;
     }
 

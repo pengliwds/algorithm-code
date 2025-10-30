@@ -13,16 +13,9 @@ public class DecoratorTest {
 
 
     public static void main(String[] args) {
-        Person person = new Yourself();
 
-        Tshirt tshirt = new Tshirt();
-        Trousers trousers = new Trousers();
-        Shoes shoes = new Shoes();
 
-        tshirt.setDecorator(person);
-        trousers.setDecorator(tshirt);
-        shoes.setDecorator(trousers);
-
+        Person shoes = new Shoes(new Trousers(new Tshirt(new Yourself())));
         shoes.doSomething();
 
     }
