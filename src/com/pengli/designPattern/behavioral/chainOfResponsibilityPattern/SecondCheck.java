@@ -6,7 +6,7 @@ public class SecondCheck extends CheckHandler {
 
 
         System.out.println("第二道关");
-
+        System.out.println("第二道关校验成功");
         // 不符合校验，直接返回Result
 
         if (null != next) {

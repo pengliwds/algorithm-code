@@ -1,19 +1,18 @@
 package com.pengli.designPattern.behavioral.chainOfResponsibilityPattern;
 
-public class FirstCheck extends CheckHandler {
+public class ThirdCheck extends CheckHandler{
 
 
     @Override
     Result check() {
-
-        System.out.println("第一道关");
-
+        System.out.println("第三道关");
+        System.out.println("第三道关校验成功");
         // 不符合校验，直接返回Result
-        System.out.println("第一道关校验成功");
 
         if (null != next) {
             return next.check();
         }
-        return new Result("第一道关校验成功");
+        return new Result("第三道关校验成功");
+
     }
 }

@@ -10,10 +10,7 @@ public class PatternTest {
 
         CheckHandler.Builder builder = new CheckHandler.Builder();
 
-        FirstCheck firstCheck = new FirstCheck();
-        SecondCheck secondCheck = new SecondCheck();
-
-        builder.addHandler(firstCheck).addHandler(secondCheck);
+        builder.addHandler(new FirstCheck()).addHandler(new SecondCheck()).addHandler(new ThirdCheck());
 
         Result result = builder.build().check();
 
