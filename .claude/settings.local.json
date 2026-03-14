@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"G:\\\\code\\\\algorithm-code\" && javac -d . src/com/pengli/designPattern/behavioral/mediatorPattern/*.java)",
+      "Bash(cd \"G:\\\\code\\\\algorithm-code\" && java com.pengli.designPattern.behavioral.mediatorPattern.MediatorPatternTest)"
+    ]
+  }
+}
