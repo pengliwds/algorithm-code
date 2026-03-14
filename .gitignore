@@ -8,3 +8,11 @@ out
 *.iws
 *.iml
 *.ipr
+.claude
+.vscode
+
+### Eclipse ###
+.classpath
+.project
+.settings
+.apt_generated
